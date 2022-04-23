@@ -208,7 +208,7 @@ let fetchDate = () => {
 
 }
 
-let step = 10
+let step = 100
 
 async function deposit_add() {
 
