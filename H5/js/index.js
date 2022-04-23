@@ -23,7 +23,7 @@ function countDown() {
 	hour = timerFilter(hour);
 	minute = timerFilter(minute);
 	second = timerFilter(second);
-	if (utc_h < 1) {
+	if (utc_h < 1 && utc_m < 20) {
 		console.log(111);
 		setValue('countDown', 'Liquidationing!')
 		button_button_wait.show()
